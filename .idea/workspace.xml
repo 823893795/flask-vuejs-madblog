@@ -2,39 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="173898d5-4fef-4bed-9fe4-8dcf21c035e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/bootstrap-solid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-line/css/simple-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-line/fonts/Simple-Line-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-line/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-line/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-line/fonts/Simple-Line-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-line/fonts/Simple-Line-Icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/MaterialIcons-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/MaterialIcons-Regular.ijmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/MaterialIcons-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/MaterialIcons-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/MaterialIcons-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/MaterialIcons-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/codepoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/iconfont/material-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-material/material-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/components/EditProfile.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/app/api/posts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/bootstrap-markdown/css/bootstrap-markdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/bootstrap-markdown/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/bootstrap-markdown/js/bootstrap-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/bootstrap-markdown/js/bootstrap-markdown.zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/bootstrap-markdown/js/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/icon-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/markdown-styles/github-markdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/Post.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/app/api/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/app/api/tokens.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back-end/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/migrations/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/build/webpack.dev.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/Profile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/store.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/front-end/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,16 +65,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/back-end/app/models.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+            <state relative-caret-position="-755">
               <folding>
-                <element signature="e#0#73#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#140#161#0" expanded="true" />
+                <element signature="e#364#409#0" expanded="true" />
+                <element signature="e#437#490#0" expanded="true" />
+                <element signature="e#573#640#0" expanded="true" />
+                <element signature="e#867#893#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-end/src/assets/markdown-styles/github-markdown.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -121,25 +120,28 @@
         <option value="$PROJECT_DIR$/back-end/app/api/errors.py" />
         <option value="$PROJECT_DIR$/front-end/src/App.vue" />
         <option value="$PROJECT_DIR$/front-end/src/components/Alert.vue" />
-        <option value="$PROJECT_DIR$/front-end/src/components/Home.vue" />
         <option value="$PROJECT_DIR$/front-end/src/components/Register.vue" />
         <option value="$PROJECT_DIR$/back-end/app/api/tokens.py" />
         <option value="$PROJECT_DIR$/back-end/migrations/env.py" />
         <option value="$PROJECT_DIR$/front-end/src/store.js" />
         <option value="$PROJECT_DIR$/front-end/src/router/index.js" />
         <option value="$PROJECT_DIR$/front-end/src/components/Navbar.vue" />
-        <option value="$PROJECT_DIR$/front-end/src/main.js" />
         <option value="$PROJECT_DIR$/front-end/src/router/http.js" />
         <option value="$PROJECT_DIR$/front-end/src/http.js" />
         <option value="$PROJECT_DIR$/front-end/src/components/Login.vue" />
-        <option value="$PROJECT_DIR$/back-end/app/models.py" />
         <option value="$PROJECT_DIR$/front-end/src/components/Profile.vue" />
         <option value="$PROJECT_DIR$/front-end/src/components/EditProfile.py" />
         <option value="$PROJECT_DIR$/front-end/src/components/EditProfile.vue" />
+        <option value="$PROJECT_DIR$/back-end/app/models.py" />
+        <option value="$PROJECT_DIR$/back-end/app/api/posts.py" />
+        <option value="$PROJECT_DIR$/front-end/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/front-end/src/main.js" />
+        <option value="$PROJECT_DIR$/front-end/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/front-end/src/components/Post.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -174,14 +176,27 @@
             <path>
               <item name="flask-vuejs-madblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask-vuejs-madblog" type="462c0819:PsiDirectoryNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flask-vuejs-madblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask-vuejs-madblog" type="462c0819:PsiDirectoryNode" />
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-vuejs-madblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-vuejs-madblog" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-vuejs-madblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-vuejs-madblog" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,11 +209,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end/src/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front-end/src/assets" />
       <recent name="$PROJECT_DIR$/front-end/src" />
     </key>
   </component>
@@ -255,18 +271,17 @@
       <updated>1562752002792</updated>
       <workItem from="1562752004469" duration="1048000" />
       <workItem from="1562807850005" duration="18395000" />
-      <workItem from="1562893184989" duration="1560000" />
+      <workItem from="1562893184989" duration="11380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30697000" />
+    <option name="totallyTimeSpent" value="40517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21959943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,7 +302,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.055078685" />
+      <window_info anchor="right" id="Database" order="4" weight="0.055078685" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,44 +312,6 @@
     <SUITE FILE_PATH="coverage/flask_vuejs_madblog$madblog.coverage" NAME="madblog Coverage Results" MODIFIED="1562808822397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back-end" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/back-end/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/build/vue-loader.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/components/Ping.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -363,16 +340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/madblog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,39 +383,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app/api/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/app/api/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app/api/errors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/components/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -510,16 +443,6 @@
           <caret line="85" column="45" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app/api/tokens.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,20 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-            <element signature="e#364#405#0" expanded="true" />
-            <element signature="e#460#486#0" expanded="true" />
-            <element signature="e#522#575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/app/api/users.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -633,15 +542,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app/api/tokens.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/madblog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/venv/lib/python3.7/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="225" column="4" selection-start-line="225" selection-start-column="4" selection-end-line="225" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app/api/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/venv/lib/python3.7/site-packages/werkzeug/datastructures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1605546429/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="322" column="4" selection-start-line="322" selection-start-column="4" selection-end-line="322" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app/api/posts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+        <state relative-caret-position="220">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
           <folding>
             <element signature="e#0#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/assets/bootstrap-markdown/js/marked.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/assets/icon-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8668">
+          <caret line="394" column="9" selection-start-line="394" selection-start-column="9" selection-end-line="394" selection-end-column="9" />
+          <folding>
+            <element signature="e#567#574#1" expanded="true" />
+            <element signature="e#9742#9804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/components/Post.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6534">
+          <caret line="297" column="9" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
+          <folding>
+            <element signature="e#566#573#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-755">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+            <element signature="e#364#409#0" expanded="true" />
+            <element signature="e#437#490#0" expanded="true" />
+            <element signature="e#573#640#0" expanded="true" />
+            <element signature="e#867#893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/assets/markdown-styles/github-markdown.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

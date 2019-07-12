@@ -31,6 +31,8 @@ class PaginatedAPIMixin(object):
 
 
 class User(PaginatedAPIMixin, db.Model):
+    # 设置数据库表名，Post模型中的外键 user_id 会引用 users.id
+    __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(120), index=True, unique=True)
@@ -42,6 +44,10 @@ class User(PaginatedAPIMixin, db.Model):
     about_me = db.Column(db.Text())
     member_since = db.Column(db.DateTime(), default=datetime.utcnow)
     last_seen = db.Column(db.DateTime(), default=datetime.utcnow)
+    # 反向引用，直接查询出当前用户的所有博客文章；同时，Post实例中会有author属性
+    # cascade 用于级联删除，当删除user时，该user下面的所有posts都会被级联删除
+    posts = db.relationship('Post', backref='author', lazy='dynamic',
+                            cascade='all, delete-orphan')
 
     def __repr__(self):
         return '<User {}>'.format(self.username)
@@ -81,6 +87,10 @@ class User(PaginatedAPIMixin, db.Model):
                 setattr(self, field, data[field])
         if new_user and 'password' in data:
             self.set_password(data['password'])
+
+    def ping(self):
+        self.last_seen = datetime.utcnow()
+        db.session.add(self)
 
     # def get_token(self, expires_in=3600):
     #     now = datetime.utcnow()
@@ -126,3 +136,42 @@ class User(PaginatedAPIMixin, db.Model):
             # Token过期，或被人修改，那么签名验证也会失败
             return None
         return User.query.get(payload.get('user_id'))
+
+
+class Post(PaginatedAPIMixin, db.Model):
+    __tablename__ = 'posts'
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(255))
+    summary = db.Column(db.Text)
+    body = db.Column(db.Text)
+    timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+    views = db.Column(db.Integer, default=0)
+    # 外键，直接操纵数据库当user下面有posts时不允许删除user，下面仅仅是 ORM-level "delete" cascade
+    # db.ForeignKey('users.id', ondelete='CASCADE') 会同时在数据库中指定 FOREIGN KEY level "ON DELETE" cascade
+    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+
+    def __repr__(self):
+        return '<Post {}>'.format(self.title)
+
+    def to_dict(self):
+        data = {
+            'id': self.id,
+            'title': self.title,
+            'summary': self.summary,
+            'body': self.body,
+            'timestamp': self.timestamp,
+            'views': self.views,
+            'author': self.author.to_dict(),
+            '_links': {
+                'self': url_for('api.get_post', id=self.id),
+                'author_url': url_for('api.get_user', id=self.author_id)
+            }
+        }
+        return data
+
+    def from_dict(self, data):
+        for field in ['title', 'summary', 'body']:
+            if field in data:
+                setattr(self, field, data[field])
+
+
