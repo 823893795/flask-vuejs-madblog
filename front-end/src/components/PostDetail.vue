@@ -11,7 +11,7 @@
             </button>
           </div>
           <div class="modal-body">
-
+          
             <form @submit.prevent="onSubmitUpdate" @reset.prevent="onResetUpdate">
               <div class="form-group" v-bind:class="{'u-has-error-v1': editForm.titleError}">
                 <input type="text" v-model="editForm.title" class="form-control" id="editform_title" placeholder="标题">
@@ -27,7 +27,7 @@
               <button type="reset" class="btn btn-secondary">Cancel</button>
               <button type="submit" class="btn btn-primary">Update</button>
             </form>
-
+    
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@
     <div class="row">
       <!-- Articles Content -->
       <div class="col-lg-9">
-
+        
         <article class="g-mb-60 g-pt-15 g-pb-50">
           <header class="g-mb-30">
             <h1 class="g-color-primary g-mb-15">{{ post.title }}</h1>
@@ -53,7 +53,7 @@
                 <span class="btn btn-xs u-btn-outline-aqua g-mr-10">评论</span>
               </li>
               <li v-if="post.author" class="list-inline-item">
-                <router-link v-bind:to="{ name: 'Profile', params: { id: post.author.id }}" class="u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-text-underline--none--hover"><span v-if="post.author.name">{{ post.author.name }}</span><span v-else>{{ post.author.username }}</span></router-link>
+                <router-link v-bind:to="{ path: `/user/${post.author.id}` }" class="u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-text-underline--none--hover"><span v-if="post.author.name">{{ post.author.name }}</span><span v-else>{{ post.author.username }}</span></router-link>
               </li>
               <li class="list-inline-item g-mx-10">/</li>
               <li class="list-inline-item">
@@ -74,7 +74,7 @@
           </header>
 
           <div id="postBody" class="g-font-size-16 g-line-height-1_8 g-mb-30">
-
+            
             <!-- vue-markdown 开始解析markdown，它是子组件，通过 props 给它传值即可
             要指定TOC的级数哦，如果要修改TOC的样式，要在toc-rendered指定的函数中操作，因为要等它把TOC给创建出来
              -->
@@ -87,11 +87,11 @@
               toc-id="toc"
               class="markdown-body">
             </vue-markdown>
-
+            
           </div>
 
         </article>
-
+        
       </div>
       <!-- End Articles Content -->
 
@@ -104,7 +104,7 @@
           </div>
           <div id="toc" class="toc"></div>
         </div>
-
+        
       </div>
       <!-- End Sidebar -->
     </div>
@@ -127,6 +127,8 @@ const highlightCode = () => {
 }
 // 固定 TOC
 import '../assets/jquery.sticky'
+
+
 export default {
   name: 'Post',
   components: {
@@ -170,6 +172,7 @@ export default {
       // 每次提交前先移除错误，不然错误就会累加
       $('.form-control-feedback').remove()
       $('.form-group.u-has-error-v1').removeClass('u-has-error-v1')
+
       if (!this.editForm.title) {
         this.editForm.errors++
         this.editForm.titleError = 'Title is required.'
@@ -179,6 +182,7 @@ export default {
       } else {
         this.editForm.titleError = null
       }
+
       if (!this.editForm.body) {
         this.editForm.errors++
         this.editForm.bodyError = 'Body is required.'
@@ -189,12 +193,15 @@ export default {
       } else {
         this.editForm.bodyError = null
       }
+
       if (this.editForm.errors > 0) {
         // 表单验证没通过时，不继续往下执行，即不会通过 axios 调用后端API
         return false
       }
+
       // 先隐藏 Modal
       $('#updatePostModal').modal('hide')
+
       const path = `/api/posts/${this.editForm.id}`
       const payload = {
         title: this.editForm.title,
@@ -248,7 +255,7 @@ export default {
               // handle error
               console.log(error.response.data)
             })
-
+          
         } else {
           this.$swal('Cancelled', 'The post is safe :)', 'error')
         }

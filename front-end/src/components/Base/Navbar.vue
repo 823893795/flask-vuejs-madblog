@@ -3,8 +3,8 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 20px;">
       <router-link to="/" class="navbar-brand">
-        <img src="../assets/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-          MadBlog
+        <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Design by <a href="http://www.madmalls.com" class="g-text-underline--none--hover">Madman</a>
       </router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
             <router-link to="/" class="nav-link">Home <span class="sr-only">(current)</span></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Explore</a>
+            <router-link to="/ping" class="nav-link">Ping</router-link>
           </li>
         </ul>
 
@@ -27,19 +27,21 @@
         </form>
 
         <ul v-if="sharedState.is_authenticated" class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Messages</a>
-          </li>
-          <li class="nav-item">
-            <router-link v-bind:to="{ name: 'Profile', params: { id: sharedState.user_id }}" class="nav-link">Profile</router-link>
-          </li>
-          <li class="nav-item">
-            <a v-on:click="handlerLogout" class="nav-link" href="#">Logout</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img v-bind:src="sharedState.user_avatar"> {{ sharedState.user_name }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <router-link v-bind:to="{ path: `/user/${sharedState.user_id}` }" class="dropdown-item">Your profile</router-link>
+              <router-link v-bind:to="{ name: 'SettingProfile' }" class="dropdown-item">Settings</router-link>
+              <div class="dropdown-divider"></div>
+              <a v-on:click="handlerLogout" class="dropdown-item" href="#">Sign out</a>
+            </div>
           </li>
         </ul>
         <ul v-else class="nav navbar-nav navbar-right">
           <li class="nav-item">
-            <router-link to="/login" class="nav-link">Login</router-link>
+            <router-link to="/login" class="nav-link">Sign in</router-link>
           </li>
         </ul>
       </div>
@@ -49,7 +51,8 @@
 </template>
 
 <script>
-import store from '../store.js'
+import store from '../../store'
+
 export default {
   name: 'Navbar',  //this is the name of the component
   data () {
